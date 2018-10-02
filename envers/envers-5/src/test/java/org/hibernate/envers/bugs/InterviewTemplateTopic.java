@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2015 VEDA GmbH. All rights reserved.
+ * Copyright (c) 2018 VEDA GmbH. All rights reserved.
  * Use is subject to license terms.
  */
 
@@ -8,7 +8,6 @@ package org.hibernate.envers.bugs;
 import org.hibernate.annotations.BatchSize;
 import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.FetchMode;
-import org.hibernate.annotations.Type;
 import org.hibernate.envers.AuditMappedBy;
 import org.hibernate.envers.Audited;
 
@@ -16,7 +15,6 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.UUID;
 
 @Entity
 @Audited
