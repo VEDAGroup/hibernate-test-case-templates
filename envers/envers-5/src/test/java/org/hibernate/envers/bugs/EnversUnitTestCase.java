@@ -21,8 +21,8 @@ public class EnversUnitTestCase extends AbstractEnversTestCase {
 	@Override
 	protected Class[] getAnnotatedClasses() {
 		return new Class[] {
-//				Foo.class,
-//				Bar.class
+				InterviewTemplateTopic.class,
+				InterviewTemplateItem.class
 		};
 	}
 
@@ -54,6 +54,6 @@ public class EnversUnitTestCase extends AbstractEnversTestCase {
 	@Test
 	public void hhh123Test() throws Exception {
 		AuditReader reader = getAuditReader();
-		// Do stuff...
+		// It's not necessary to do anything since the error occurs during hibernate/envers bootstrapping process
 	}
 }
